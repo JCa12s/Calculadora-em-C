@@ -1,0 +1,10 @@
+Objectivos:
+- Receber os numeros no terminal e devolver o resultado.
+- Evoluir de acordo com os conhecimentos em C (implementar novas funções de calculos).
+
+Implementações:
+1. Operações aritméticas:
+- Adição.
+- Subtração.
+- Multiplicação.
+- Divisão.
