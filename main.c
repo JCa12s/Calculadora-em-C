@@ -1,5 +1,8 @@
 #include <stdio.h>
+#include "funcoes.h"
 
+/*
+funções ainda não retiradas para testar possiveis erroos no futuro.
 //Fase inicialização das funções de operações matemáticas
 // Função de adição
 void adicao(float a, float b)
@@ -32,6 +35,8 @@ void divisao(float a, float b)
     printf("Resultado: %0.2f\n", resultado);
     return;
 }
+*/
+
 
 // Fase de execução do programa
 int main()
@@ -46,6 +51,11 @@ int main()
     printf("3. Multiplicação\n");
     printf("4. Divisão\n");
     scanf("%d", &opcao);
+    if (opcao < 1 || opcao > 4) {
+        printf("Opção inválida! Por favor, escolha uma opção entre 1 e 4.\n");
+        return 1; // Exit the program with an error code
+    }
+
     printf("Digite o primeiro número: ");
     scanf("%f", &a);
     printf("Digite o segundo número: ");
