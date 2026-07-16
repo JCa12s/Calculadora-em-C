@@ -1,1 +1,7 @@
 Esta pasta é para execução de testes em C.
+
+Numeração de testes:
+1. Teve um erro, não de compilação mas o compilador não achava as funções,
+tive de fazer um testes separadamente para resolver o erro.
+    Problema identificado: Erro do programador, colocava apenas o arquivo main.C
+    Resolvido.
