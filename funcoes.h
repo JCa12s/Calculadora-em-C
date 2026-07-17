@@ -1,5 +1,6 @@
 #ifndef FUNCOES_H
 #define FUNCOES_H
+#include <stdio.h>
 
 // Retirar as funcoes de operações matemáticas do main.c e colocar em arquivos separados.
 void adicao(float a, float b);

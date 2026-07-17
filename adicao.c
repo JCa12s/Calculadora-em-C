@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "funcoes.h"
 
 void adicao(float a, float b)

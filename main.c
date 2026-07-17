@@ -1,42 +1,4 @@
-#include <stdio.h>
 #include "funcoes.h"
-
-/*
-funções ainda não retiradas para testar possiveis erroos no futuro.
-//Fase inicialização das funções de operações matemáticas
-// Função de adição
-void adicao(float a, float b)
-{
-    float resultado = a + b;
-    printf("Resultado: %0.2f\n", resultado);
-    return;
-}
-
-// Função de subtração
-void subtracao(float a, float b)
-{
-    float resultado = a - b;
-    printf("Resultado: %0.2f\n", resultado);
-    return;
-}
-
-// Função de multiplicação
-void multiplicacao(float a, float b)
-{
-    float resultado = a * b;
-    printf("Resultado: %0.2f\n", resultado);
-    return;
-}
-
-// Função de divisão
-void divisao(float a, float b)
-{
-    float resultado = a / b;
-    printf("Resultado: %0.2f\n", resultado);
-    return;
-}
-*/
-
 
 // Fase de execução do programa
 int main()

@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "funcoes.h"
 
 void divisao(float a, float b)
