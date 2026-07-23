@@ -7,5 +7,6 @@ void adicao(float a, float b);
 void subtracao(float a, float b);
 void multiplicacao(float a, float b);
 void divisao(float a, float b);
+void percentagem(float a, float b);
 
 #endif

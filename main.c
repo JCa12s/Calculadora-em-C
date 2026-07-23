@@ -12,8 +12,9 @@ int main()
     printf("2. Subtração\n");
     printf("3. Multiplicação\n");
     printf("4. Divisão\n");
+    printf("5. Percentagem\n");
     scanf("%d", &opcao);
-    if (opcao < 1 || opcao > 4) {
+    if (opcao < 1 || opcao > 5) {
         printf("Opção inválida! Por favor, escolha uma opção entre 1 e 4.\n");
         return 1; // Exit the program with an error code
     }
@@ -36,6 +37,9 @@ int main()
             break;
         case 4:
             divisao(a, b);
+            break;
+        case 5:
+            percentagem(a, b);
             break;
         default:
             printf("Opção inválida!\n");

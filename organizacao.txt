@@ -8,3 +8,5 @@ Implementações:
 - Subtração.
 - Multiplicação.
 - Divisão.
+2. Implementação de funções para cada função.
+3. Implementação de calculo de percentagem.
