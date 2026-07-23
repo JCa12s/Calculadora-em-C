@@ -1,8 +1,9 @@
 #include "funcoes.h"
 
-void adicao(float a, float b)
+float adicao(float a, float b)
 {
-    float resultado = a + b;
-    printf("Resultado: %0.2f\n", resultado);
-    return;
+    float resultado;
+    
+    resultado = a + b;
+    return resultado;
 }

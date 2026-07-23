@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 // Retirar as funcoes de operações matemáticas do main.c e colocar em arquivos separados.
-void adicao(float a, float b);
-void subtracao(float a, float b);
-void multiplicacao(float a, float b);
-void divisao(float a, float b);
-void percentagem(float a, float b);
+float adicao(float a, float b);
+float subtracao(float a, float b);
+float multiplicacao(float a, float b);
+float divisao(float a, float b);
+float percentagem(float a, float b);
 
 #endif
