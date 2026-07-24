@@ -8,12 +8,14 @@ int main()
     int opcao;
     
     printf("Calculadora Simples\n");
+    printf("=========================\n");
     printf("Escolha uma operação:\n");
     printf("1. Adição\n");
     printf("2. Subtração\n");
     printf("3. Multiplicação\n");
     printf("4. Divisão\n");
     printf("5. Percentagem\n");
+    printf("=========================\n");
     scanf("%d", &opcao);
 
     while(1)
